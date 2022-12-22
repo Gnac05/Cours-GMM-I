@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+
+% package
+\usepackage{cmap}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{
+top=2cm,
+bottom=3cm,
+left=3cm,
+right=3cm
+}
+\usepackage{amsfonts} % this package permit to display lR, C and more
+
+
+\begin{document}
+\begin{center}
+{\LARGE TD I Outils Mathématiques pour l'ingénieur}
+\end{center}
+
+
+\begin{center}
+\underline{\textbf{Exercice 1}}
+\end{center}
+Donner le développement en série de Laurent des fonctions suivantes et préciser dans quelle partie 
+de $ \mathbb{C} $ elles sont variables.
+\\
+\par\noindent 1) $ f(z) = \frac{1}{(z+2)(z-1)} $ autour de 0, de -1 et -2 \\
+2) $ f(z) = \frac{z}{(z^{2}-1)} $ autour de 0, de 2 et 1 \\
+3) $ f(z) = \frac{1}{(z-1)^{2}(z-3)} $ dans $ 0 < \mid z-1\mid < 2 $ \\
+
+\par\noindent
+\begin{center}
+\underline{\textbf{Exercice 2}}
+\end{center}
+Calculer les intégrales suivantes:
+\par\noindent
+\begin{center}
+\begin{tabular}{c c}
+$ I_{1} = \displaystyle{\int_{\mid z\mid = 2}}\tan(z)dz $ &
+$ I_{2} = \displaystyle{\int_{\mid z\mid = 2}}\frac{\exp(z)}{z^{4} + 5z^{3}} dz $
+\\
+ & 
+\\
+$ I_{3} = \displaystyle{\int_{\mid z-4\mid = \frac{1}{2}}}\frac{1}{z^{4}-1}dz $ &
+$ I_{4} = \displaystyle{\int_{\mid z\mid = 2}}\frac{z^{99}\exp(\frac{1}{z})}{z^{100} + 1} dz $
+\\
+ & 
+\\
+$ I_{5} = \displaystyle{\int_{\mid z-i\mid = \frac{3}{2}}}\frac{\exp(\frac{1}{z^{2}})}{z^{2}+1} dz $ &
+$ I_{6} = \displaystyle{\int_{\mid z\mid = 2}}\frac{\sin(\frac{1}{z})}{z-1}dz $
+\end{tabular}
+\end{center}
+
+\par\noindent
+\begin{center}
+\underline{\textbf{Applications des résidus}}
+\end{center}
+Calculer:
+\par\noindent
+\begin{center}
+\begin{tabular}{c c}
+$ I_{1} = \displaystyle{\int_{-\infty}^{+\infty}}\frac{1}{x^{2}+1} dx $ &
+$ I_{2} = \displaystyle{\int_{0}^{2\pi}}\frac{1}{x^{2}+1} dz $
+\\
+ & 
+\\
+$ I_{3} = \displaystyle{\int_{0}^{2\pi}}\frac{\cos(\alpha)}{5+\cos(\alpha)}d\alpha $ &
+$ I_{4} = \displaystyle{\int_{-\infty}^{+\infty}}\frac{1}{x^{4}+1} dx $
+\\
+ & 
+\\
+$ I_{5} = \displaystyle{\int_{-\infty}^{+\infty}}\frac{\sin(x)}{x+i} dx $ &
+$ I_{6} = \displaystyle{\int_{0}^{+\infty}}\frac{\sin(x)}{x} dx $
+\end{tabular}
+\end{center}
+
+\par\noindent
+\begin{tabular}{c c}
+Calculer: &
+$ \displaystyle{\sum_{n=-\infty}^{+\infty}}\frac{1}{n^{2}+a^{2}} $
+\end{tabular}
+
+\end{document}

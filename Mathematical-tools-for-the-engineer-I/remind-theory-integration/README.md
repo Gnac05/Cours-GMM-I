@@ -1,5 +1,5 @@
 # Remind Theory of Intergration 
-    - Ensembles mesurables et mesure de Lebesgues
+    - Ensembles mesurables et mesure de Lebesgue
     - ...
 
 ## Author 

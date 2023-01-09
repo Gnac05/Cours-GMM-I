@@ -15,7 +15,7 @@
 \newcommand{\N}{\ensuremath{\big{N}}}
 \newcommand{\R}{\ensuremath{\big{R}}}
 \newcommand{\C}{\ensuremath{\big{C}}}
-\newcommand{\Rn}[1]{\ensuremath{\big{R}^{#1}}}
+\newcommand{\Rn}[2]{\ensuremath{\big{R}^{#1}_{#2}}}
 
 \begin{document}
     \begin{center}
@@ -26,7 +26,7 @@
 	
 	\section{Ensembles mesurables et mesure de Lebesgue}
 		\subsection*{Définition}
-		Un pavé P dans \Rn{d} est un produit cartésienne de d intervalles de \R \, bornés (ouvert, fermé, semi-ouvert ou semi-fermé).
+		Un pavé P dans \Rn{d}{} est un produit cartésien de d intervalles de \R \, bornés (ouvert, fermé, semi-ouvert ou semi-fermé).
 		\begin{center}
 		$ P = \prod^{d}_{i=1}\left]a_{i}\, ; b_{i} \right[ $ où $ a_{i} \leq b_{i}$, des nombres réels, $i = 1, ..., d$
 		\end{center}
@@ -38,8 +38,9 @@
 		\end{align*}
 		
 		\subsection*{Definition}
-		Une union de pavé est dite disjoint si les intérieurs de pavé sont disjoints.
+		Une union de pavé est dite disjointe si les intérieurs des pavés sont disjoints.
 		
 		\subsection*{Remarque}
+		Un cube est un pavé pour lequel $$ b_{1} - a_{1} = b_{2} - a_{2} = ... = b_{d} - a_{d} $$ L'intérêt de ces cubes et pavés provient du fait qu'ils approchent bien les ouverts de \Rn{d}{}
 
 \end{document}
